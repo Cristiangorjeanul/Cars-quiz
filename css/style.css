@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Body {
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 295px;
+  padding: 10px;
+}
+
+@media (min-width: 368px) {
+  img {
+    width: 450px;
+  }
+}
+
+h1 {
+  padding: 3px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  color: Yellow;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  margin: 5px;
+}
+
+@media (min-width: 368px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+h3 {
+  font-size: 1rem;
+  color: yellow;
+  margin: 5px;
+}
+
+@media (min-width: 368px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+button {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  width: 280px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 5px auto;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+@media (min-width: 368px) {
+  button {
+    width: 430px;
+  }
+}
+
+#questionnaire {
+  background-color: blue;
+  margin: 0 auto;
+  width: 315px;
+  height: 459px;
+  border-radius: 10px;
+}
+
+@media (min-width: 368px) {
+  #questionnaire {
+    width: 750px;
+    height: 480px;
+  }
+}
