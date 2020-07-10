@@ -19,7 +19,7 @@ img {
   padding: 10px;
 }
 
-@media (min-width: 368px) {
+@media (min-width: 768px) {
   img {
     width: 450px;
   }
@@ -40,7 +40,7 @@ h2 {
   margin: 5px;
 }
 
-@media (min-width: 368px) {
+@media (min-width: 768px) {
   h2 {
     font-size: 1.5rem;
   }
@@ -52,7 +52,7 @@ h3 {
   margin: 5px;
 }
 
-@media (min-width: 368px) {
+@media (min-width: 768px) {
   h3 {
     font-size: 1.2rem;
   }
@@ -74,7 +74,7 @@ button:hover {
   background-color: green;
 }
 
-@media (min-width: 368px) {
+@media (min-width: 768px) {
   button {
     width: 430px;
   }
@@ -88,7 +88,7 @@ button:hover {
   border-radius: 10px;
 }
 
-@media (min-width: 368px) {
+@media (min-width: 768px) {
   #questionnaire {
     width: 750px;
     height: 480px;
